@@ -1,0 +1,11 @@
+.btn .btn-success{
+  cursor: pointer;
+}
+
+.row {
+ padding-top: 15px;
+}
+
+.col-8 {
+  padding-left: 50px;
+}

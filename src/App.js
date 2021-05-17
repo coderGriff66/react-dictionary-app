@@ -1,4 +1,5 @@
 import SheCodes_logo from "./SheCodes_logo.png";
+import Dictionary from "./Dictionary";
 import './App.css';
 
 export default function App() {
@@ -9,6 +10,9 @@ export default function App() {
       <header className="App">
         <img src={SheCodes_logo} className="App-logo" alt="logo" />
       </header>
+      <main>
+        <Dictionary />
+      </main>
       <footer>
         <strong>Coded by Jennifer Griffin and {" "}
         <a href="https://github.com/coderGriff66/react-dictionary-app" target="_blank" rel="noreferrer"> open-sourced on GitHub</a> </strong>
