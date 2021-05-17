@@ -16,9 +16,7 @@ export default function Dictionary() {
 
   return (
     <div className="Dictionary">
-      <h2>Dictionary</h2>
-      <p><strong>"What word are you curious about?"</strong></p>
-      <form onSubmit={search}>
+       <form onSubmit={search}>
         <div className="row">
           <div className="col-8">
             <input type="search" onchange={handleKeyword} placeholder="Type a word" className="form-control shadow sm" autoFocus="on" autoComplete="off" />
