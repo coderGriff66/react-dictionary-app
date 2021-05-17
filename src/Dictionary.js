@@ -19,7 +19,7 @@ export default function Dictionary() {
        <form onSubmit={search}>
         <div className="row">
           <div className="col-8">
-            <input type="search" onchange={handleKeyword} placeholder="Type a word" className="form-control shadow sm" autoFocus="on" autoComplete="off" />
+            <input type="search" onChange={handleKeyword} placeholder="Type a word" className="form-control shadow sm" autoFocus="on" autoComplete="off" />
           </div>
             <div className="col-3">
               <input type="submit" value="search" className="btn btn-info"/>
