@@ -16,7 +16,7 @@ export default function App() {
             <h2>Dictionary</h2>
           </div>
             <div>
-              <p><strong>"What word are you curious about?"</strong></p>
+              <p className="Question"><strong>"What word are you curious about?"</strong></p>
             </div>
           
            <main>

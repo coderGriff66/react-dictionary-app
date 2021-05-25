@@ -3,10 +3,13 @@ import React from "react";
 export default function Antonyms(props) {
   if (props.antonyms) {
   return (
-    <div className="Antonyms">
+    <div>
+    <strong><em>Antonyms:</em></strong>
+    <ul className="Antonyms">
             {props.antonyms.map(function (antonyms, index) {
-        return  <span key={index}>{antonyms}</span>;
+        return  <li key={index}>{antonyms}</li>;
        })} 
+        </ul>
         </div>
         );
 } else {

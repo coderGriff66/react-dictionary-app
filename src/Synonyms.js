@@ -3,10 +3,13 @@ import React from "react";
 export default function Synonyms(props) {
   if (props.synonyms) {
   return (
-    <div className="Synonyms">
+    <div>
+    <strong><em>Synonyms:</em></strong>
+    <ul className="Synonyms">
             {props.synonyms.map(function (synonyms, index) {
-        return <span key={index}>{synonyms}</span>;
+        return <li key={index}>{synonyms}</li>;
        })} 
+        </ul>
         </div>
         );
 } else {
