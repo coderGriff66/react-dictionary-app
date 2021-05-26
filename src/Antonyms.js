@@ -6,8 +6,8 @@ export default function Antonyms(props) {
     <div>
     <strong><em>Antonyms:</em></strong>
     <ul className="Antonyms">
-            {props.antonyms.map(function (antonyms, index) {
-        return  <li key={index}>{antonyms}</li>;
+            {props.antonyms.map(function (antonym, index) {
+        return  <li key={index}>{antonym}</li>;
        })} 
         </ul>
         </div>
