@@ -12,7 +12,7 @@ return (
     {props.meaning.definitions.map(function (definition, index) {
     return (
       <div key={index}>
-      <p>
+      <span>
         <strong>Definition:</strong> {definition.definition}
         <br />
         <strong>Example:</strong> <em>{definition.example}</em>
@@ -20,7 +20,7 @@ return (
         <Synonyms synonyms={definition.synonyms} />
         <br />
         <Antonyms antonyms={definition.antonyms} />
-      </p>
+      </span>
       </div>
     );
 })}
