@@ -1,5 +1,6 @@
 import React from "react";
 
+import Examples from "./Examples";
 import Synonyms from "./Synonyms";
 import Antonyms from "./Antonyms";
 
@@ -7,7 +8,7 @@ export default function Meaning(props) {
 
 return (
   <div className="Meaning">
-    <h4>{props.meaning.partOfSpeech}</h4>
+    <h4 className="Speech">{props.meaning.partOfSpeech}</h4>
         
     {props.meaning.definitions.map(function (definition, index) {
     return (
@@ -15,7 +16,7 @@ return (
       <span>
         <strong>Definition:</strong> {definition.definition}
         <br />
-        <strong>Example:</strong> <em>{definition.example}</em>
+        <Examples example={definition.examples} />
         <br />
         <Synonyms synonyms={definition.synonyms} />
         <br />

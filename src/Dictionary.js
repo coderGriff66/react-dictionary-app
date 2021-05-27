@@ -14,7 +14,7 @@ export default function Dictionary() {
 
   function search(event) {
     event.preventDefault();
-      
+     // api documentation - https://dictionaryapi.dev/e 
     let apiUrl =`https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
     axios.get(apiUrl).then(handleResponse);
   }
@@ -37,7 +37,7 @@ export default function Dictionary() {
           </div>
         </form>
       
-        <span className="Hints">Perhaps you might seach: adversary, sunset, commitment, crucial</span></section>
+        <span className="Hints"><strong>Suggested words:</strong> <em>adoration, sunset, persnickety, love, parlay, native</em></span></section>
       <Results results={results} />
     </div>
   );
