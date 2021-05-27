@@ -20,7 +20,7 @@ export default function App() {
             </div>
           
            <main>
-             <Dictionary />
+             <Dictionary defaultKeyword="sunset" />
            </main>
              <footer>
               <strong>Coded by Jennifer Griffin and {" "}
