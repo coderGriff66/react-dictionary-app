@@ -1,0 +1,8 @@
+.Results section {
+  background-color: rgb(221, 244, 248);
+  border-radius: 6px;
+  box-shadow: 4px 4px 5px rgba(158, 160, 160, 0.5);
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin: 15px;
+}

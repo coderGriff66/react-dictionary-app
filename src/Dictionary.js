@@ -25,17 +25,20 @@ export default function Dictionary() {
 
   return (
     <div className="Dictionary">
-       <form onSubmit={search}>
-        <div className="row">
-          <div className="col-8">
-            <input type="search" onChange={changedKeyword} placeholder="Type a word" className="form-control shadow sm" autoFocus="on" autoComplete="off" />
-          </div>
-            <div className="col-3">
-              <input type="submit" value="search" className="btn btn-info"/>
+      <section>
+        <form onSubmit={search}>
+          <div className="row">
+            <div className="col-8">
+              <input type="search" onChange={changedKeyword} placeholder="Type a word" className="form-control shadow sm" autoFocus="on" autoComplete="off" />
             </div>
-        </div>
-      </form>
+              <div className="col-3">
+                <input type="submit" value="search" className="btn btn-info"/>
+              </div>
+          </div>
+        </form>
+      
+        <span className="Hints">Perhaps you might seach: adversary, sunset, commitment, crucial</span></section>
       <Results results={results} />
     </div>
-  )
+  );
 }

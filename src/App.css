@@ -1,3 +1,10 @@
+body {
+ background: radial-gradient(592px at 48.2% 50%, rgba(255, 255, 249, 0.6) 0%, rgb(160, 199, 254) 74.6%);
+ background: radial-gradient(circle at 48.7% 44.3%, rgb(30, 144, 231) 0%, rgb(56, 113, 209) 22.9%, rgb(38, 76, 140) 76.7%, rgb(31, 63, 116) 100.2%);
+ background: linear-gradient(72.5deg, rgb(0, 175, 255) 27.9%, rgb(0, 224, 254) 84.2%);
+ background: linear-gradient(109.6deg, rgb(100, 178, 249) 11.2%, rgba(114, 231, 159, 0.8) 91.1%);
+}
+
 .App h2{
   text-align: center;
 }

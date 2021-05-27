@@ -1,3 +1,18 @@
+.Dictionary section {
+  background-color: whitesmoke; 
+  border-radius: 6px;
+  box-shadow: 4px 4px 5px rgba(158, 160, 160, 0.6);
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin: 20px 0;
+}
+
+.Dictionary span {
+  font-size: 13px;
+  padding: 0px 15px;
+
+}
+
 .btn .btn-success{
   cursor: pointer;
 }
@@ -8,4 +23,6 @@
 
 .col-8 {
   padding-left: 50px;
+  padding-bottom: 10px;
 }
+
