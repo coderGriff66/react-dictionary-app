@@ -7,11 +7,12 @@
 .Meaning .title {
   font-size: 15px;
   margin-left: 15px;
+  margin-bottom: 0px;
 }
 
 .Meaning .Def {
   font-size: 16px;
   line-height: 1.5;
-  margin: 5px 10px;
+  margin: 5px 15px;
   text-align: center;
 }

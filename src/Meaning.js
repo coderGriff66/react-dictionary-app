@@ -17,7 +17,7 @@ return (
       <span>
         <strong className="title">Definition:</strong> <div className="Def">{definition.definition} </div>
         <br />
-        <Examples example={definition.example} />
+        <Examples examples={definition.example} />
         <br />
         <Synonyms synonyms={definition.synonyms} />
         <br />
