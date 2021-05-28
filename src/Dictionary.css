@@ -7,15 +7,12 @@
   margin: 20px 0;
 }
 
-.Dictionary span {
+.Dictionary .Hint {
   font-size: 13px;
   padding: 0px 20px;
 
 }
 
-.Dictionary input {
-  
-}
 .btn .btn-success{
   cursor: pointer;
 }

@@ -47,8 +47,9 @@ export default function Dictionary(props) {
             </div>
           </form>
       
-        <span className="Hints"><strong>Suggested words:</strong> <em>adoration, sunset, persnickety, love, parlay, native</em></span></section>
-      <Results results={results} />
+         <div className="Hint"><strong>Suggested words:</strong> <em>adoration, sunset, persnickety, love, parlay, native</em></div>
+        </section>
+          <Results results={results} />
     </div>
   );
 } else{

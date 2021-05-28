@@ -12,15 +12,13 @@ export default function App() {
       </header>
       
         <div className="App-topper">
-          <div>
-            <h1>Dictionary</h1>
-          </div>
+          <h1>Dictionary</h1>
             <div className="Question">
               <span><strong>"What word are you curious about"</strong></span> 
             </div>
           
            <main>
-             <Dictionary defaultKeyword="sunset" />
+             <Dictionary defaultKeyword="example" />
            </main>
              <footer>
               <strong>Coded by Jennifer Griffin and {" "}

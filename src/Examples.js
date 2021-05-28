@@ -1,13 +1,15 @@
 import React from "react";
 
+import "./Examples.css";
+
 export default function Examples(props) {
    if (props.examples) {
   return (
     <div>
-      <strong><em>Example:</em></strong>
+      <h6><em>Example:</em></h6>
         <div className="Examples">
             {props.example.map(function (example, index) {
-        return <div key={index}>{example}>
+        return <div key={index}>{example}/>
         </div>
      })} 
         </div>
