@@ -2,12 +2,11 @@ import React from "react";
 
 import "./Examples.css";
 
-export default function Examples(props) {
-    if (props.example) {
+export default function Example(props) {
+    if (props.examples) {
      return (
       <div className="Examples">
-        <h6><em>Example:</em></h6>
-         {props.example};
+        <span>Example: <em>{props.examples}</em></span>
        </div>
     );
   } else {

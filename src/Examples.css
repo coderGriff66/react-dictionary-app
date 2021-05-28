@@ -1,8 +1,9 @@
-Examples h6 {
+.Examples {
   color: darkslateblue;  
   font-size: 14px;
   font-weight: bold;
-  margin-left: 15px;
-  
-
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
 }
+

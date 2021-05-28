@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./Photos";
+
 export default function Photos(props) {
   if (props.photos) {
 

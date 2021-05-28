@@ -2,15 +2,14 @@
   background-color: rgb(255, 253, 253); 
   border-radius: 6px;
   box-shadow: 4px 8px 9px rgba(43, 43, 43, 0.8);
-  padding-top: 10px;
+  padding-top: 15px;
   padding-bottom: 20px;
   margin: 20px 0;
 }
 
 .Dictionary .Hint {
+  text-align: center;
   font-size: 13px;
-  padding: 0px 20px;
-
 }
 
 .btn .btn-success{
@@ -18,11 +17,15 @@
 }
 
 .row {
- padding-top: 15px;
+ padding-top: 10px;
 }
 
 .col-8 {
-  padding-left: 50px;
+  padding-left: 80px;
   padding-bottom: 10px;
+}
+
+.col-3 {
+  padding-left: 50px;
 }
 
