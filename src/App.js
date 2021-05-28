@@ -8,7 +8,7 @@ export default function App() {
     <div className="App">
       <div className="container">
       <header className="App">
-        <img src={Portuguese_def} className="App-logo rounded-corners" alt="logo" />
+        <img src={Portuguese_def} className="App-logo rounded-corners img-fluid" alt="logo" />
       </header>
       
         <div className="App-topper">
@@ -18,7 +18,7 @@ export default function App() {
             </div>
           
            <main>
-             <Dictionary defaultKeyword="example" />
+             <Dictionary defaultKeyword="test" />
            </main>
              <footer>
               <strong>Coded by Jennifer Griffin and {" "}
