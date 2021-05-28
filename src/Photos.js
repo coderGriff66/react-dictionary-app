@@ -1,8 +1,18 @@
 import React from "react";
 
-export default function Photos() {
-  
+export default function Photos(props) {
+  if (props.photos) {
+
   return (
-         "Hello from Photos"
+    <div className="Photos">
+      {props.photos.map(function (photo, index) {
+        return <img src={photo.src.landscape} alt="" key={index} />;
+     })}
+    </div>
   );
+} else {
+  return null;
+  }
 }
+
+  
