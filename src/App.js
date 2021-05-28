@@ -1,4 +1,4 @@
-import SheCodes_logo from "./SheCodes_logo.png";
+import Portuguese_def from "./Portuguese_def.png";
 import Dictionary from "./Dictionary";
 import './App.css';
 
@@ -8,7 +8,7 @@ export default function App() {
     <div className="App">
       <div className="container">
       <header className="App">
-        <img src={SheCodes_logo} className="App-logo" alt="logo" />
+        <img src={Portuguese_def} className="App-logo rounded-corners" alt="logo" />
       </header>
       
         <div className="App-topper">
