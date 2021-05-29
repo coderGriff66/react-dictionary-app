@@ -2,16 +2,11 @@
   text-align: center;
   font-size: 24px;
   font-weight: bold;
-}
-
-.Meaning .title {
-  font-size: 15px;
-  margin-left: 15px;
-  margin-bottom: 0px;
+  margin-top: 10px;
 }
 
 .Meaning .Def {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
   margin: 0px 20px;
   text-align: center;

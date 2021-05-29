@@ -15,7 +15,7 @@ return (
     return (
       <div key={index}>
       <span>
-        <strong className="title">Definition:</strong> <div className="Def">{definition.definition} </div>
+        <div className="Def">{definition.definition} </div>
         <br />
         <Examples examples={definition.example} />
         <br />

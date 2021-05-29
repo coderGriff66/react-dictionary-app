@@ -7,6 +7,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
+        <div className="Wrapper">
       <header className="App">
         <img src={Portuguese_def} className="App-logo rounded-corners img-fluid" alt="logo" />
       </header>
@@ -25,6 +26,7 @@ export default function App() {
                 <a href="https://github.com/coderGriff66/react-dictionary-app" target="_blank" rel="noreferrer"> open-sourced on GitHub</a> </strong>
             </footer>
          </div>   
+      </div>
       </div>
     </div>
   );
