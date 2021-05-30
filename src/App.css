@@ -1,6 +1,6 @@
 body {
 
- background: radial-gradient(rgb(73, 150, 103), rgb(158, 241, 190), rgb(56, 113, 209));
+ background: radial-gradient(rgb(27, 73, 44), rgb(158, 241, 190), rgb(56, 113, 209));
 }
 
 
@@ -20,16 +20,16 @@ body {
 
 .App-logo.rounded-corners {
   margin: auto;
-  margin-top: 30px;
+  margin-top: 50px;
   display: block;
-  height: 20vmin;
-  border-radius: 10px;
-  box-shadow: 8px 15px 20px rgba(24, 24, 24, 0.8);
+  height: 25vmin;
+  border-radius: 14px;
+  box-shadow: 9px 12px 20px rgba(24, 24, 24, 0.8);
   pointer-events: none;
 }
 
 .container {
-  max-width: 800px;
+  max-width: 700px;
   margin:  0 auto;
 }
 
@@ -37,5 +37,5 @@ footer {
   font-size: 13px;
   color: darkblue;
   text-align: center;
-  margin-bottom: 35px;
+  margin-bottom: 45px;
 }

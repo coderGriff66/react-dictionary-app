@@ -1,4 +1,4 @@
-import Portuguese_def from "./Portuguese_def.png";
+import Portuguese_defined from "./Portuguese_defined.png";
 import Dictionary from "./Dictionary";
 import './App.css';
 
@@ -9,7 +9,9 @@ export default function App() {
       <div className="container">
         <div className="Wrapper">
       <header className="App">
-        <img src={Portuguese_def} className="App-logo rounded-corners img-fluid" alt="logo" />
+        <a href={Portuguese_defined} target="_blank" rel="noreferrer">
+        <img src={Portuguese_defined} className="App-logo rounded-corners img-fluid" alt="logo" />
+        </a>
       </header>
       
         <div className="App-topper">

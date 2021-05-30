@@ -21,7 +21,11 @@ export default function Photos(props) {
     </section>
   );
 } else {
-  return null;
+  return (
+    <div className="Photoless">
+      <h3>Sorry, No Photos to Display</h3>
+    </div>
+  );
   }
 }
 
