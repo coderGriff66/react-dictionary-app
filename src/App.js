@@ -13,7 +13,7 @@ export default function App() {
       </header>
       
         <div className="App-topper">
-          <h1>Dictionary</h1>
+          <h1>DICTIONARY</h1>
             <div className="Question">
               <span><strong>"What word are you curious about"</strong></span> 
             </div>

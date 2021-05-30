@@ -8,8 +8,9 @@
 }
 
 .Dictionary .Hint {
+  font-family: Calibri;
   text-align: center;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .btn .btn-success{
@@ -21,7 +22,7 @@
 }
 
 .col-8 {
-  padding-left: 80px;
+  padding-left: 50px;
   padding-bottom: 10px;
 }
 

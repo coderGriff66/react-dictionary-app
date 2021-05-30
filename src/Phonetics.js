@@ -3,7 +3,7 @@ import React from "react";
 import "./Phonetics.css";   
 
 export default function Phonetics(props) {
-  console.log(props.phonetic);
+ 
   return (
     <div className="d-flex justify-content-center Phonetics">
       <span><a href={props.phonetic.audio} target="_blank" rel="noreferrer">Listen</a>

@@ -5,8 +5,9 @@ body {
 
 
 .App h1{
+  font-family: Elephant, Book Antigua, Cambria;
   text-align: center;
-  font-size: 36px;
+  font-size: 38px;
   font-weight: bolder;
   padding: 20px;
 }
@@ -36,5 +37,5 @@ footer {
   font-size: 13px;
   color: darkblue;
   text-align: center;
-  margin-bottom: 25px;
+  margin-bottom: 35px;
 }
