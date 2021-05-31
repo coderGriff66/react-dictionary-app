@@ -60,7 +60,7 @@ export default function Dictionary(props) {
             </div>
           </form>
       
-         <div className="Hint"><strong>Suggested words:</strong> <em>adoration, sunset, persnickety, nomad, love, native, gathering</em></div>
+         <div className="Hint"><strong>Suggested words:</strong> <em>adoration, sunset, persnickety, nomad, love, native, gathering, discombobulated, good</em></div>
         </section>
           <Results results={results} />
           <Photos photos={photos}/>

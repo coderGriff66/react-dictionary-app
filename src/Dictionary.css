@@ -9,6 +9,7 @@
 
 .Dictionary .Hint {
   font-family: Calibri;
+  margin: 10px;
   text-align: center;
   font-size: 14px;
 }
@@ -29,4 +30,3 @@
 .col-3 {
   padding-left: 50px;
 }
-
